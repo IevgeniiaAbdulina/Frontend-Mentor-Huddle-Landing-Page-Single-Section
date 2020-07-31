@@ -20,11 +20,15 @@ body {
     cover padding-box border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
-section {
-  margin: 40px 0;
+.logo {
+  margin-bottom: 40px;
+}
+
+.logo img {
+  max-width: 240px;
 }
 
 .banner-container {
@@ -32,8 +36,8 @@ section {
 }
 
 .banner-img {
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
 .banner-img img {
@@ -41,33 +45,32 @@ section {
 }
 
 .banner-text {
-  flex: 0 0 40%;
-  max-width: 40%;
-  padding: 80px 0 0 80px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 40px 0 0 80px;
 }
 
 .banner-title {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 48px;
-  margin-bottom: 40px;
+  font-size: 42px;
+  margin-bottom: 20px;
 }
 
 .banner-description {
   color: white;
   font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 40px;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .button {
-  padding: 20px 80px;
+  padding: 16px 80px;
   border-radius: 50px;
   background-color: white;
   color: hsl(257, 40%, 49%);
   font-size: 24px;
-  font-weight: 700;
   border: none;
   box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.14);
 }
@@ -79,23 +82,23 @@ section {
 .contacts {
   display: flex;
   justify-content: flex-end;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .contact-item {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   border: 1px solid white;
   margin-right: 24px;
 }
 
 ion-icon {
-  font-size: 32px;
+  font-size: 24px;
   color: white;
   position: relative;
-  top: 13px;
-  left: 13px;
+  top: 10px;
+  left: 10px;
 }
 
 .attribution {
